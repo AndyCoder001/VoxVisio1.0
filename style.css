@@ -292,13 +292,15 @@ span.psw {
     }
 }
 
-#homebtns{
+#homebtns {
     background-color: black;
     height: 75px;
     align-content: center;
     justify-content: center;
 }
-#chotu1, #chotu2{
+
+#chotu1,
+#chotu2 {
     display: inline-block;
     position: relative;
     padding: 10px;
@@ -310,14 +312,18 @@ span.psw {
     border-radius: 8px;
     border: 2px solid white;
 }
-#chotu1{
+
+#chotu1 {
     margin-left: 10px;
 }
-#chotu2{
+
+#chotu2 {
     float: right;
-    margin-right:10px;
+    margin-right: 10px;
 }
-#chotu1:hover, #chotu2:hover{
+
+#chotu1:hover,
+#chotu2:hover {
     border-radius: 15px;
     background-color: white;
     color: black;
@@ -327,53 +333,58 @@ span.psw {
 /* width */
 ::-webkit-scrollbar {
     width: 5px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px grey; 
-    border-radius: 10px;
-  }
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: rgb(0, 0, 0); 
-    border-radius: 10px;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #000000; 
-  }
+}
 
-  #bgpost{
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #000000;
+}
+
+#bgpost {
     width: 75%;
     margin: 10px 10px 10px 150px;
     background-color: white;
     box-shadow: 2px 2px 2px 2px black;
     border: none;
     border-radius: 10px;
-  }
-.bgimg{
+}
+
+.bgimg {
     margin: 10px;
     border-radius: 10px;
     height: 500px;
     width: 98%;
-  }
-  #bgheadi{
+}
+
+#bgheadi {
     text-align: center;
-  }
-  #bgpara
-  {
+}
+
+#bgpara {
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 10px;
     text-align: justify;
-  }
-  #bgchotu{
+}
+
+#bgchotu {
     margin: 10px;
 
-  }
-  #prevbtn, #nextbtn{
+}
+
+#prevbtn,
+#nextbtn {
     padding: 10px;
     margin: 10px 10px 20px 10px;
     display: inline-block;
@@ -383,8 +394,17 @@ span.psw {
     border-radius: 12px;
     border: 2px solid black;
     width: 46%;
-  }
-  #prevbtn:hover, #nextbtn:hover{
+}
+
+#prevbtn:hover,
+#nextbtn:hover {
     background-color: black;
     color: white;
-  }
+}
+/* 
+@media screen and (max-width:590px) {
+
+    #nav-li:nth-child(1){
+        display: none;
+    }
+} */
