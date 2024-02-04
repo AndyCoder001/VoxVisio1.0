@@ -104,17 +104,7 @@
     margin: 10px;
 }
 
-/* #blogpost{
-    display: inline-block;
-    border-radius: 10px;
-    width: 70%;
-    height: auto;
-    margin: 30px 0px 30px 30px;
-    padding: 10px;
-    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
-} */
 
-/* VIDEO CSS */
 #content {
     margin-top: 10px;
     margin-left: 200px;
@@ -400,6 +390,7 @@ span.psw {
 #nextbtn:hover {
     background-color: black;
     color: white;
+<<<<<<< HEAD
 }
 /* 
 @media screen and (max-width:590px) {
@@ -408,3 +399,6 @@ span.psw {
         display: none;
     }
 } */
+=======
+  }
+>>>>>>> 58041b88d7f1f0442234749f685d4d2287e747cb
