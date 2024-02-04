@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VoxVisio Support</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.png">
+</head>
+
+<body>
+    <div id="navbar">
+        <nav>
+            <ul id="nav-ul">
+                <img src="favicon.png" id="nav-img">
+                <li style="text-decoration: 5px solid underline; color: rgb(0, 0, 0);" id="nav-li"><a id="nav-li-href"
+                        href="contact.html">Contact Us</a></li>
+                <li id="nav-li"><a id="nav-li-href" href="blogs.html">Blogs</a></li>
+                <li id="nav-li"><a id="nav-li-href" href="index.html">Home</a></li>
+            </ul>
+        </nav>
+    </div>
+    <form action="/action_page.php" method="post">
+        <div class="imgcontainer">
+          <img src="favicon.png" height="50px" width="50px" alt="Avatar" class="avatar">
+           </div>
+      
+        <div class="container">
+          <label for="uname"><b>Name</b></label>
+          <input type="text" placeholder="Your Name" name="uname" required>
+      
+          <label for="psw"><b>Email</b></label>
+          <input type="text" placeholder="Enter Email" name="psw" required>
+
+          <label for="psw"><b>Query</b></label>
+          <input type="text" placeholder="Why you want to Contact us" required>
+              
+          <button onclick="alert('Your response submitted successfully.')" type="submit">Submit</button>
+        </div>
+      
+        
+      </form>
+      <script src="script.js"></script>
+</body>
+
+</html>

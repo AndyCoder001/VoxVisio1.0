@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VoxVisio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.png">
+</head>
+
+<body oncontextmenu="return false" ondrag="return false" ondrop="return false">
+    <div id="navbar">
+        <nav>
+            <ul id="nav-ul">
+                <img src="favicon.png" id="nav-img">
+                <li id="nav-li"><a id="nav-li-href" href="contact.html">Contact Us</a></li>
+                <li id="nav-li"><a id="nav-li-href" href="blogs.html">Blogs</a></li>
+                <li style="text-decoration: 5px solid underline; color: rgb(0, 0, 0);" id="nav-li"><a id="nav-li-href"
+                        href="#">Home</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <header id="homeheader">
+
+    </header>
+
+    <div id="homebtns">
+        <button onclick="window.location.href='blogs.html'" id="chotu1">Read All Blogs</button>
+        <button onclick="window.location.href='https:/dailymotion.com/ntvcartoons'" id="chotu2">Follow us</button>
+    </div>
+
+    <div id="cards">
+        <h1 style="text-align: center;">Recent Blogs</h1>
+        <div id="card">
+            <img id="card-img" src="1.jpg" alt="">
+            <p id="card-date">01/01/2023</p>
+            <p id="card-author">Andy</p>
+            <h1 id="card-h1">The Power of Mindfulness</h1>
+            <p id="card-p">Discover the transformative impact of mindfulness on mental well-being. From stress reduction
+                to enhanced cognitive abilities, explore how this ancient practice brings clarity, resilience, and
+                balance to daily life
+            </p>
+            <button onclick="window.location.href='blog-post.html'" id="card-btn">View full Post</button>
+        </div>
+        <div id="card">
+            <img id="card-img" src="2.jpg" alt="">
+            <p id="card-date">01/01/2023</p>
+            <p id="card-author">Andy</p>
+            <h1 id="card-h1">Embracing Minimalism</h1>
+            <p id="card-p">Explore liberating world of minimalism, a lifestyle celebrating intentional living. Discover
+                the joy found in simplicity and prioritizing what truly
+                matters for fulfillment
+            </p>
+            <button onclick="window.location.href='blog-post.html'" id="card-btn">View full Post</button>
+        </div>
+        <div id="card">
+            <img id="card-img" src="3.jpg" alt="">
+            <p id="card-date">01/01/2023</p>
+            <p id="card-author">Andy</p>
+            <h1 id="card-h1">The Art of Resilience</h1>
+            <p id="card-p">Explore transformative power of resilience in navigating life's challenges. From
+                 a resilient mindset to building a support system, discover strategies for overcoming
+                adversity with strength and grace.
+            </p>
+            <button id="card-btn" onclick="window.location.href='blog-post.html'">View full Post</button>
+        </div>
+    </div>
+    <form action="/action_page.php" method="post">
+        <div class="imgcontainer">
+            <h1>Feel Free to Contact us</h1>
+        </div>
+
+        <div class="container">
+            <label for="uname"><b>Name</b></label>
+            <input type="text" placeholder="Your Name" name="uname" required>
+
+            <label for="psw"><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="psw" required>
+
+            <label for="psw"><b>Query</b></label>
+            <input type="text" placeholder="Why you want to Contact us" required>
+
+            <button onclick="alert('Your response submitted successfully.')" type="submit">Submit</button>
+        </div>
+
+    </form>
+    <script src="script.js"></script>
+</body>
+
+</html>
